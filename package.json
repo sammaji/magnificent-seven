@@ -35,6 +35,7 @@
 		"@types/three": "^0.149.0",
 		"gsap": "^3.11.4",
 		"svelte-sequential-preprocessor": "^0.0.7",
+		"svelte-types": "^0.0.7",
 		"three": "^0.150.0"
 	}
 }
