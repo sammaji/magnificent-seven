@@ -1,3 +1,4 @@
+import path from 'path';
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import preprocess from 'svelte-preprocess';
@@ -12,6 +13,10 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
+		alias: {
+			'@data': path.resolve('./data'),
+			'@lib': path.resolve('./lib/'),
+		}
 	}
 };
 
