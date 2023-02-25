@@ -103,22 +103,23 @@
     color: white;
   }
   header > h1 {
+    font-size: 3rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
     letter-spacing: 2px;
   }
   header > p {
+    letter-spacing: 2px;
     font-family: "PT Sans", sans-serif;
-    line-height: 1.75rem;
-    font-size: 1rem;
+    line-height: 2rem;
+    font-size: 1.25rem;
     display: flex;
     justify-content: flex-end;
-    /* text-align: justify;
-      text-justify: inter-character; */
   }
   header > h1 span {
     font-weight: 900;
+    font-size: 3rem;
     background: -webkit-linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
     background-clip: text;
     -webkit-background-clip: text;
@@ -133,9 +134,8 @@
     box-sizing: border-box;
     color: #ffffff;
     display: flex;
-    font-family: "Gruppo", cursive;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
     justify-content: center;
     line-height: 0.77em;
     max-width: 100%;
