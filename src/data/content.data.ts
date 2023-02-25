@@ -29,7 +29,7 @@ export const CONTENT_DATA: ContentType[] = [
     	},
   	},
 
-  /* 1 - Chicken Pizza ✌️ */
+  /* 1 - Chichén Itzá */
   {
     pageOne: {
       title: "Chichén Itzá",
