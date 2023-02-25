@@ -5,3 +5,24 @@
 	font-family: 'poppins', sans-serif;
 	font-size: 16px;
 }
+
+/* width */
+::-webkit-scrollbar {
+	width: 4px;
+	background-color: red;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #454545;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #808080;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #03041c;
+}
