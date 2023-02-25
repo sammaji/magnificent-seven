@@ -1,9 +1,9 @@
-type ContentPageType = {
+export type ContentPageType = {
 	title: string;
 	description: string;
 };
 
-type ContentType = {
+export type ContentType = {
 	pageOne: ContentPageType;
 	pageTwo: ContentPageType;
 	pageThree: ContentPageType;
