@@ -17,19 +17,19 @@ export const CONTENT_DATA: ContentType[] = [
       	title: "The Great Wall of China",
       	description:
        		 "The Great Wall of China is one of the most iconic landmarks in the world. It is a massive wall that stretches over 13,000 miles across the northern part of China. The wall was constructed over a period of many centuries, with various dynasties adding to it and modifying it. Today, it is one of the most popular tourist attractions in China, drawing millions of visitors from all over the world each year.",
-           url: "https://unsplash.com/photos/e7nDDmyZH54",
+           url: "https://images.unsplash.com/photo-1539987225288-7d998989461e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
     	},
     	pageTwo: {
       	title: "History",
       	description:
         	"The Great Wall of China was built over 2,000 years ago during the Warring States period to protect Chinese territories from invasions. The various walls were connected during the Qin dynasty to form a single, continuous wall to protect China from northern nomads. The wall was constructed using different materials and was modified and extended over the centuries by various dynasties, particularly by the Ming dynasty, who repaired and reinforced sections, and built new sections. The wall served not only for defense but also for border control and trade regulation.",
-          url: "https://unsplash.com/photos/E13mcj-2TLE",
+          url: "https://images.unsplash.com/photo-1583405584623-58f4b7d1380f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
     	},
     	pageThree: {
       		title: "Features",
       		description:
         	"The Great Wall of China is an impressive engineering feat made of stone, brick, tamped earth, and wood. It is 15-30 feet wide and up to 26 feet tall, with the most famous sections built during the Ming dynasty using brick and stone. The wall has watchtowers, battlements, crenellations, and gates used for defense and access control.",
-          url: "https://unsplash.com/photos/nbEW8E9Qv9Y",
+          url: "https://images.unsplash.com/photo-1511013411230-380c4ed5f0f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     	},
   	},
 
@@ -39,19 +39,19 @@ export const CONTENT_DATA: ContentType[] = [
       title: "Chichén Itzá",
       description:
         "Chichen Itza is a world-famous archaeological site located in the Yucatan Peninsula of Mexico. It was once a major pre-Columbian city and a hub of Mayan civilization. Today, it is one of the most visited archaeological sites in Mexico, attracting millions of visitors each year.",
-        url: "https://unsplash.com/photos/iYFMX3nZIsY",
+        url: "https://images.unsplash.com/photo-1567930009485-07d60c813306?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     pageTwo: {
       title: "History",
       description:
         "Chichen Itza, founded by the Maya in the late 6th century, was ruled by powerful kings and grew to become one of the largest cities in the Maya world. It was invaded by the Toltecs in the 10th century, leading to a period of cultural exchange and innovation. After the decline of the Maya civilization in the 13th century, Chichen Itza was abandoned but rediscovered by Spanish explorers in the 16th century and has since become a popular tourist destination.",
-        url: "https://unsplash.com/photos/UfK0P6WygEE",
+        url: "https://images.unsplash.com/photo-1518638150340-f706e86654de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80",
     },
     pageThree: {
       title: "Features",
       description:
         'Chichen Itza boasts many impressive structures, including the famous 98-foot El Castillo pyramid with its four staircases containing 91 steps each, totaling 365 steps. The Ball Court is the largest and most well-preserved in Mesoamerica, measuring 545 feet by 225 feet and was used for the ancient game "pok-ta-pok". The Temple of the Warriors is a large stepped pyramid with a platform surrounded by hundreds of warrior columns and carvings.',
-        url: "https://unsplash.com/photos/SoDQjg8KrXU",
+        url: "https://images.unsplash.com/photo-1641590633012-c865c1da6d96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
     },
   },
 
@@ -67,13 +67,13 @@ export const CONTENT_DATA: ContentType[] = [
       title: "History",
       description:
         "Petra was founded in the 4th century BC by nomadic Arabs and became a thriving center of commerce and culture at the crossroads of trade routes. Skilled Nabataean builders carved elaborate structures into sandstone cliffs, including temples and tombs. Petra came under Roman rule in the 1st century AD and continued to prosper. However, by the 4th century AD, it declined and was abandoned until rediscovered in 1812 by Swiss explorer Johann Ludwig Burckhardt. Today, Petra is a renowned archaeological site.",
-        url: "https://unsplash.com/photos/sYMgkKkHpGI",
+        url: "https://images.unsplash.com/photo-1548786811-dd6e453ccca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
     },
     pageThree: {
       title: "Features",
       description:
         "Petra boasts impressive rock-cut architecture, highlighted by the famous Treasury (Al Khazneh) temple from the 1st century BC. Accessed through the narrow Siq canyon, the Treasury is carved out of red sandstone cliffs. Other significant landmarks include the Monastery, a large cliff-top temple, and the Great Temple, Petra's largest building. The Royal Tombs are also noteworthy, serving as the burial site for Nabataean royalty.",
-        url: "https://unsplash.com/photos/uQ-SQ-ohOuk",
+        url: "https://images.unsplash.com/photo-1554322662-abedea4ed292?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1216&q=80",
     },
   },
 
@@ -83,19 +83,19 @@ export const CONTENT_DATA: ContentType[] = [
       title: "Machu Picchu",
       description:
         "Machu Picchu is an ancient Incan city located in the Andes Mountains of Peru. It is one of the most famous archaeological sites in the world and attracts millions of visitors every year. The city was built in the 15th century and is known for its impressive architecture, stunning views, and rich history.",
-        url: "https://unsplash.com/photos/5qba-p9ahTE",
+        url: "https://images.unsplash.com/photo-1531065208531-4036c0dba3ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     pageTwo: {
       title: "History",
       description:
         'Machu Picchu was built in the mid-15th century as a royal estate for Incan emperor Pachacuti. Abandoned in the late 16th century, it was rediscovered by archaeologist Hiram Bingham in 1911 and dubbed the "Lost City of The Incas."',
-        url: "https://unsplash.com/photos/4hMET7vYTAQ",
+        url: "https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     pageThree: {
       title: "Features",
       description:
         "Machu Picchu impresses with stunning mountain views and traditional Incan architecture, utilizing dry stone walls and polished surfaces. Divided into agricultural and urban sectors, the latter features royal palaces, temples, and residences. The Intihuatana stone, an astronomical calendar, is the city's most notable landmark, aligned with the sun's solstice movements.",
-        url: "https://unsplash.com/photos/VddWWTaTnpQ",
+        url: "https://images.unsplash.com/photo-1589087575290-519f528dfe5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     },
   },
 
@@ -111,13 +111,13 @@ export const CONTENT_DATA: ContentType[] = [
       title: "History",
       description:
         "Proposed in the 1850s by Brazilian priest Pedro Maria Boss, the idea for the Christ the Redeemer statue was revived in the 1920s by Brazilian Catholics to mark their country's independence centennial. Constructed by Brazilian workers under French sculptor Paul Landowski's design, the statue opened in 1931, taking nine years to complete.",
-        url: "https://unsplash.com/photos/MrdSyMik4ao",
+        url: "https://images.unsplash.com/photo-1594387295585-34ba732932c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1630&q=80",
     },
     pageThree: {
       title: "Features",
       description:
         "Christ the Redeemer statue is made of reinforced concrete and soapstone, stands at 98 feet tall, and weighs 635 metric tons. Depicting Jesus with outstretched arms, it symbolizes peace and forgiveness and sits atop a 26-foot pedestal. The statue attracts millions of visitors annually.",
-        url: "https://unsplash.com/photos/OkiDIla7K8Q",
+        url: "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1226&q=80",
     },
   },
 
