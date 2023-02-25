@@ -526,6 +526,11 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+csstype@^2.6.8:
+  version "2.6.21"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.21.tgz#2efb85b7cc55c80017c66a5ad7cbd931fda3a90e"
+  integrity sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==
+
 debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
@@ -1441,7 +1446,15 @@ svelte-sequential-preprocessor@^0.0.7:
     svelte "^3.42.6"
     tslib "~2.3.1"
 
-svelte@^3.42.6, svelte@^3.54.0:
+svelte-types@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/svelte-types/-/svelte-types-0.0.7.tgz#77d5e414d6cacbcb3c9339eb9678981715038f13"
+  integrity sha512-v8eOfn1L8h04QizgNMeZppiXyeoYZT+P8TvvK92+CiayCokvRInSg2RJLBPeVcSM4z3A/djPjTQTN0KZX08Lvg==
+  dependencies:
+    csstype "^2.6.8"
+    svelte "^3.18.2"
+
+svelte@^3.18.2, svelte@^3.42.6, svelte@^3.54.0:
   version "3.55.1"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.55.1.tgz#6f93b153e5248039906ce5fe196efdb9e05dfce8"
   integrity sha512-S+87/P0Ve67HxKkEV23iCdAh/SX1xiSfjF1HOglno/YTbSTW7RniICMCofWGdJJbdjw3S+0PfFb1JtGfTXE0oQ==
