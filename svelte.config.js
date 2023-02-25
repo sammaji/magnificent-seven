@@ -14,8 +14,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			'@data': path.resolve('./data'),
-			'@lib': path.resolve('./lib/'),
+			'@data': path.resolve('./src/data'),
+			'@lib': path.resolve('./src/lib'),
 		}
 	}
 };
