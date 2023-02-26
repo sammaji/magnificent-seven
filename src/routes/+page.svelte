@@ -110,10 +110,9 @@
 		letter-spacing: 2px;
 	}
 	header > p {
-		letter-spacing: 2px;
-		font-family: 'PT Sans', sans-serif;
 		line-height: 2rem;
 		font-size: 1.25rem;
+		font-weight: 300;
 		display: flex;
 		justify-content: flex-end;
 	}

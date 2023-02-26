@@ -3,6 +3,11 @@
 	import ScrollTrigger from 'gsap/ScrollTrigger';
 	import { onMount } from 'svelte';
 	import Content from '@lib/content_page/Content.svelte';
+	import { goto } from '$app/navigation';
+	import type { IndexedContentType } from '@data/content.data';
+	import { ROUTE_DATA } from '@data/routes.data';
+
+	export let data: IndexedContentType;
 
 	let container: HTMLElement;
 	let images: HTMLDivElement[] = [];
@@ -30,31 +35,56 @@
 		});
 	}
 
+	function redirectToHome() {
+		goto('/', { replaceState: true, invalidateAll: true, noScroll: true });
+	}
+
+	function redirectToNextPage() {
+		if (data.index >= 0 && data.index <= 5) {
+			goto(ROUTE_DATA[data.index + 1].route, {
+				replaceState: true,
+				invalidateAll: true,
+				noScroll: false
+			});
+		} else if (data.index === 6) {
+			goto(ROUTE_DATA[0].route, {
+				replaceState: true,
+				invalidateAll: true,
+				noScroll: false
+			});
+		}
+	}
+
 	onMount(() => {
 		animateImages();
 	});
-
-	export let data: any;
 </script>
 
-<article bind:this={container}>
-	<section>
-		<div bind:this={images[0]}>
-			<Content data={data.pageOne} />
-		</div>
-	</section>
-	<section>
-		<div bind:this={images[1]}>
-			<Content data={data.pageTwo} />
-		</div>
-	</section>
-	<section>
-		<div bind:this={images[2]}>
-			<Content data={data.pageThree} />
-		</div>
-	</section>
-</article>
-<div class="spacer" />
+<main>
+	<article bind:this={container}>
+		<section>
+			<div bind:this={images[0]} style={`background-image: url(${data.pageOne.url});`}>
+				<Content {data} displayPage={1} />
+			</div>
+		</section>
+		<section>
+			<div
+				bind:this={images[1]}
+			>
+				<Content {data} displayPage={2} />
+			</div>
+		</section>
+		<!-- <section>
+			<div bind:this={images[2]}>
+				<Content data={data.pageThree} />
+			</div>
+		</section> -->
+	</article>
+	<div class="spacer">
+		<h2 on:click={redirectToHome}>👈 <span>Home</span></h2>
+		<h2 on:click={redirectToNextPage}><span>Next</span> 👉</h2>
+	</div>
+</main>
 
 <style>
 	article {
@@ -85,19 +115,33 @@
 		background-position: center;
 	}
 
-	section:nth-child(1) > div {
-		background-image: url(https://picsum.photos/1920/1080);
-	}
 	section:nth-child(2) > div {
 		background-color: rebeccapurple;
-	}
-	section:nth-child(3) > div {
-		background-image: url(https://picsum.photos/1920/1082);
+		color: white;
 	}
 
 	.spacer {
 		height: 100vh;
 		width: 100%;
 		background: #03041c;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.spacer h2,
+	.spacer h2 span {
+		font-size: 4rem;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+			Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-weight: 900;
+		color: white;
+	}
+
+	.spacer h2:hover span {
+		background: -webkit-linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 </style>
