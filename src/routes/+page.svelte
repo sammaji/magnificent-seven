@@ -52,7 +52,7 @@
 
 <main bind:this={main}>
 	<header bind:this={header} class="con-header">
-		<h1 bind:this={header_heading}>The <span>Magnificient</span> Seven</h1>
+		<h1 bind:this={header_heading}>The <span>Magnificent</span> Seven</h1>
 		<p bind:this={header_para}>
 			Explore the world's magnificent seven wonders, recognized for awe-inspiring design, scale, and
 			technological sophistication - a testament to human ingenuity and the unrelenting pursuit of
