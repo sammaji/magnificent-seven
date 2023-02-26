@@ -46,11 +46,13 @@ yarn dev
 
 ## Team
 
-<div align="center">
-    <table>
-        <tr>
-            <td width="25%"><a href="http://www.github.com/Swpn0neel"><img src="https://avatars.githubusercontent.com/u/121167506?s=400&u=b7326a1701f43fe525ac13eb6accf9cee4477fd9&v=4" width="150" /></a><a href="https://github.com/samyabrata-maji"><img src="https://avatars.githubusercontent.com/u/116789799?v=4" width="150"/><a href="https://github.com/Arindam200"><img src="https://avatars.githubusercontent.com/u/109217591?v=4" width="150"/>
-            </td>
-        </tr>
-    </table>
-</div>
+<table>
+  <tr>
+
+<td align="center"><a href="https://github.com/Swpn0neel"><img src="https://avatars.githubusercontent.com/u/121167506?v=4" width="100px;" alt=""/><br /><sub><b>Swapnoneel Saha</b></sub></a></td>
+<td align="center"><a href="https://github.com/samyabrata-maji"><img src="https://avatars.githubusercontent.com/u/116789799?v=4" width="100px;" alt=""/><br /><sub><b>Samyabrata Maji</b></sub></a></td>
+<td align="center"><a href="https://github.com/Arindam200"><img src="https://avatars.githubusercontent.com/u/109217591?v=4" width="100px;" alt=""/><br /><sub><b>Arindam Majumder</b></sub></a></td>
+   
+ </tr>
+</table>
+
