@@ -6,5 +6,5 @@
 
 <Canvas>
 	<RenderPreset hasOrbitControls={true} hasDynamicLighting={true} />
-	<Mesh meshRadius={3} />
+	<Mesh meshRadius={2.8} />
 </Canvas>

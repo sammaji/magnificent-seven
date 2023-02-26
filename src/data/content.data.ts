@@ -1,14 +1,18 @@
-export type ContentPageType = {
+export interface ContentPageType {
 	title: string;
 	description: string;
   url: string;
 };
-
-export type ContentType = {
+ 
+export interface ContentType {
 	pageOne: ContentPageType;
 	pageTwo: ContentPageType;
 	pageThree: ContentPageType;
 };
+
+export interface IndexedContentType extends ContentType {
+  index: number;
+}
 
 export const CONTENT_DATA: ContentType[] = [
 	/* 0 - great wall of china */
