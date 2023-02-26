@@ -116,7 +116,7 @@
 	}
 
 	section:nth-child(2) > div {
-		background-color: rebeccapurple;
+		background-color: #03041c;
 		color: white;
 	}
 

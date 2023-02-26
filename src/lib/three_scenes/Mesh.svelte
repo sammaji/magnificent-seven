@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Group, Mesh } from '@threlte/core';
+	import { onMount } from 'svelte';
 	import { spring } from 'svelte/motion';
 	import { MeshStandardMaterial, SphereGeometry, TextureLoader } from 'three';
 
@@ -14,12 +15,21 @@
 	let earthSpecMap = textureLoader.load('/earth_spec.jpg');
 	let cloudsColorMap = textureLoader.load('/cloud_base_color_min.jpg');
 
+	const loadHighResTextures = async () => {
+		earthColorMap = textureLoader.load('/earth_base_color.jpg');
+		cloudsColorMap = textureLoader.load('/cloud_base_color.jpg');
+	};
+
 	function zoomIn() {
 		$OBJ_SCALE = 1.05;
 	}
 	function zoomOut() {
 		$OBJ_SCALE = 1;
 	}
+
+	onMount(() => {
+		loadHighResTextures();
+	});
 
 	export let meshRadius: number;
 </script>
