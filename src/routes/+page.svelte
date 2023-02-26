@@ -80,7 +80,10 @@
 		--bgColor: linear-gradient(90deg, #03041c, #000);
 	}
 	main {
-		background: var(--bgColor);
+		/* background: var(--bgColor); */
+		background-repeat: repeat;
+		background-size: 600px;
+		background-image: url("https://cdn.discordapp.com/attachments/1073240396467019796/1079288274536898600/image.png");
 		overflow: hidden;
 		display: flex;
 	}
